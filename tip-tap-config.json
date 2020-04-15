@@ -1,4 +1,5 @@
 {
+  "terminal" : "tiptappay-msd.herokuapp.com//api/v1/charges",
   "K81_ver": "2.3",
   "K81_fw": "raw.githubusercontent.com/asinghnw/testfiles/master/TipTapPay.bin",
   "K81_sha1": "e8b0438d037701c654c79c174bc55951b79c840d",
