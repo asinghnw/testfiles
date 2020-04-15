@@ -3,7 +3,7 @@
   "K81_ver": "0.0",
   "K81_fw": "raw.githubusercontent.com/asinghnw/testfiles/master/TipTapPay.bin",
   "K81_sha1": "e8b0438d037701c654c79c174bc55951b79c840d",
-  "stm32_ver": "3.1",
+  "stm32_ver": "0.1",
   "stm32_fw": "raw.githubusercontent.com/asinghnw/testfiles/master/usb-host-0-3.bin",
   "stm32_sha1": "71A96CBA12D50CEF47704643DB09F192312D1130",
   "idtech_ver": "0.0",
