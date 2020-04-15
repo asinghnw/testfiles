@@ -1,0 +1,20 @@
+{
+  "K81_ver": "2.3",
+  "K81_fw": "raw.githubusercontent.com/asinghnw/testfiles/master/TipTapPay.bin",
+  "K81_sha1": "e8b0438d037701c654c79c174bc55951b79c840d",
+  "stm32_ver": "2.2",
+  "stm32_fw": "raw.githubusercontent.com/asinghnw/testfiles/master/usb-host-0-3.bin",
+  "stm32_sha1": "d7351013b7adc7055f128f4d0d1cdaf38de6da8c",
+  "idtech_ver": "2.6",
+  "idtech_fw": "raw.githubusercontent.com/asinghnw/testfiles/master/idtech-1-184.txt",
+  "idtech_sha1": "a141c7ce12d9a4c51c7497481e50764a0e867d98",
+  "nrf9160_ver": "1.8",
+  "nrf9160_fw": "raw.githubusercontent.com/asinghnw/testfiles/master/modem-v0.21.bin",
+  "nrf9160_sha1": "c87aff9f6d2f90f2f829357f2d14a9c0aa83c179",
+  "visa_ver": "1.2",
+  "visa": "raw.githubusercontent.com/asinghnw/testfiles/master/visa_config.txt",
+  "master_ver": "1.9",
+  "master": "raw.githubusercontent.com/asinghnw/testfiles/master/mc_config.txt",
+  "interac_ver": "1.4",
+  "interac": "raw.githubusercontent.com/asinghnw/testfiles/master/interac_config.txt"
+}

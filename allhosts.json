@@ -1,0 +1,61 @@
+host/firmwarelist
+expected response
+{
+  "K81_ver": "2.3",
+  "K81_fw": "tiptap-dev.s3.amazonaws.com/idtech/k81_v2-3.bin",
+  "K81_sha1": "e8b0438d037701c654c79c174bc55951b79c840d",
+  "stm32_ver": "2.2",
+  "stm32_fw": "tiptap-dev.s3.amazonaws.com/idtech/stm32_v2-2.bin",
+  "stm32_sha1": "d7351013b7adc7055f128f4d0d1cdaf38de6da8c",
+  "idtech_ver": "2.6",
+  "idtech_fw": "tiptap-dev.s3.amazonaws.com/idtech/idtech_v2-6.txt",
+  "idtech_sha1": "a141c7ce12d9a4c51c7497481e50764a0e867d98",
+  "nrf9160_ver": "1.8",
+  "nrf9160_fw": "tiptap-dev.s3.amazonaws.com/idtech/nrf9160_v1-8.txt",
+  "nrf9160_sha1": "c87aff9f6d2f90f2f829357f2d14a9c0aa83c179"
+}
+host/idtechconfig
+expected response
+{
+  "visa_ver": "1.2",
+  "visa": "tiptap-dev.s3.amazonaws.com/idtech/visa_config_v1-2.txt",
+  "master_ver": "1.9",
+  "master": "tiptap-dev.s3.amazonaws.com/idtech/master_config_v1-9.txt",
+  "interac_ver": "1.4",
+  "interac": "tiptap-dev.s3.amazonaws.com/idtech/interac_config_v1-4.txt"
+}
+host/payment
+expected data upload
+{
+	"amount":10,
+	"currency":"CAD",
+	"terminal_transaction_id":123457,
+	"payload":"4f07a00000000410105f2a0208405f2d04656e667282021b00950500000000009a032002119c01009f02060000000001009f03060000000000009f0607a00000000410109f090200029f1a0208409f1e0836543838373334359f21031408119f33030000e89f34030000009f3501229f360200479f3704fac50b8e9f3901919f4104000000479f530100df81290830f0f00030f0ff00dfee2601d3dfef4c06002700000000dfef4d273b353135353331363430303733373536373d32323132323031303030373134333330373037393fff810566500a4d4153544552434152448407a00000000410109f6d020001563442353135353331363430303733373536375e202f5e323231323230313030303731383936303730373030303030303030303030399f6b135155316400737567d22122010007143307079fff81063bdf812a18303030303030303030303030303030303030303030303030df812b070000000000000fdf8115060000000000ff9f6e0701240000323100ffee012fdf300100df3118303030303030303030303030303030303030303030303030df320d30303030303030303030303030",
+	"serial_number":"68EB0014002D800F44704E45",	
+	"K81_ver": "2.3",
+	"stm32_ver": "2.2",
+	"idtech_ver": "2.6",
+	"nrf9160_ver": "1.8",
+	"battery_percentage": 85,
+	"idtech_status": 1,
+	"signature": "Z6iC8im+zQxLgHSBHsp5JrkU/acU5azYcnNkP4Uimv+3MTpWnlgRpFuyVvNASN43EtO7S/pcWiBY5"
+}
+host/telemetry
+expected data upload
+{
+	"serial_number":"68EB0014002D800F44704E45",	
+	"K81_ver": "2.3",
+	"stm32_ver": "2.2",
+	"idtech_ver": "2.6",
+	"nrf9160_ver": "1.8",
+	"battery_percentage": 85,
+	"idtech_status": 1,
+	"signature": "Z6iC8im+zQxLgHSBHsp5JrkU/acU5azYcnNkP4Uimv+3MTpWnlgRpFuyVvNASN43EtO7S/pcWiBY5"
+}
+host/errorlogs
+expected data upload
+{
+	"error_code":"E21,E12,E03,E7"
+	"error_time":"1584374662,1584378262,1585242262,1616778262"
+	"signature": "Z6iC8im+zQxLgHSBHsp5JrkU/acU5azYcnNkP4Uimv+3MTpWnlgRpFuyVvNASN43EtO7S/pcWiBY5"
+}
