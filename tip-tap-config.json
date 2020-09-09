@@ -1,5 +1,6 @@
 {
   "terminal" : "tiptappay-msd.herokuapp.com/api/v1/charges",
+  "telemetry" : "tiptappay-msd.herokuapp.com/api/v1/telemetry",
   "K81_ver": "0.0",
   "K81_fw": "tiptap-test-fw.s3.ca-central-1.amazonaws.com/TipTapPay.bin",
   "K81_sha1": "e8b0438d037701c654c79c174bc55951b79c840d",
